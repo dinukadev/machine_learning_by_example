@@ -10,6 +10,11 @@ Includes example of the following;
 
 ### Setup
 
+- Note that the package list is also included if needed and you can import it in your environment as follows;
+```
+conda install --file packagelist.txt
+```
+
 **nltk**
 ```
 conda install nltk
@@ -33,6 +38,14 @@ conda install -c conda-forge genism
 ```
 import nltk
 nltk.download
+```
+
+**Matplotlib and Seaborn**
+- Note that searbon depends on matplotlib so we need to install it before installing seaborn
+```
+conda install -c conda-forge matplotlib
+
+conda install searborn
 ```
 
 
