@@ -45,7 +45,7 @@ nltk.download
 ```
 conda install -c conda-forge matplotlib
 
-conda install searborn
+conda install seaborn
 ```
 
 
